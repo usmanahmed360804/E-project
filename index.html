@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpine Ascents | Mountaineering Portal</title>
+
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316a34a'/%3E%3Cpath d='M32 14 L52 48 H12 Z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">
+      <div class="logo-icon">
+        <i class="bi bi-triangle-fill"></i>
+      </div>
+
+      <div>
+        <h2>ALPINE</h2>
+        <span>ASCENTS</span>
+      </div>
+    </a>
+
+    <nav id="navbar">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="histroy.html" class="nav-link">History</a>
+      <a href="types.html" class="nav-link">Types</a>
+      <a href="techinque.html" class="nav-link">Techniques</a>
+      <a href="herzaid.html" class="nav-link">Hazards</a>
+      <a href="record.html" class="nav-link">Records</a>
+      <a href="gallery.html" class="nav-link">Gallery</a>
+      <a href="c" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="visitor">
+        <i class="bi bi-people-fill"></i>
+        <span>Visitors</span>
+        <strong id="visitorCount">0</strong>
+      </div>
+
+      <button id="themeBtn" class="theme-btn" title="Toggle Theme">
+        <i class="bi bi-moon-fill"></i>
+      </button>
+
+      <button id="menuBtn" class="menu-btn">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="small-title">
+        <i class="bi bi-compass"></i>
+        THE MOUNTAIN IS CALLING
+      </p>
+
+      <h1>
+        Explore Beyond<br />
+        <span>The Summit</span>
+      </h1>
+
+      <p>
+        Discover the world of mountaineering, legendary peaks, climbing
+        techniques, safety guidelines and inspiring expeditions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="about.html" class="btn primary-btn">
+          Explore Mountaineering
+          <i class="bi bi-arrow-right"></i>
+        </a>
+
+        <a href="gallery.html" class="btn secondary-btn"> View Gallery </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HERO -->
+
+  <section id="home" class="hero-banner">
+    <div class="hero-banner-text">
+      <p class="hero-kicker">Your mountaineering information portal</p>
+      <h1>Learn how people climb the world's highest mountains</h1>
+      <p>
+        From the first ascent of Mont Blanc to modern expeditions on the
+        8,000-metre giants, Alpine Ascents explains the history, skills, gear
+        and risks behind mountaineering.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#about" class="btn-main">What is mountaineering?</a>
+        <a href="#hazards" class="btn-outline">Know the hazards</a>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat">
+        <strong>8,848 m</strong>
+        <span>Height of Mount Everest</span>
+      </div>
+      <div class="stat">
+        <strong>14</strong>
+        <span>Peaks above 8,000 m</span>
+      </div>
+      <div class="stat">
+        <strong>1786</strong>
+        <span>First ascent of Mont Blanc</span>
+      </div>
+      <div class="stat">
+        <strong>1953</strong>
+        <span>First ascent of Everest</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+
+  <section id="about" class="section">
+    <div class="section-heading">
+      <p>DISCOVER THE ADVENTURE</p>
+      <h2>What is Mountaineering?</h2>
+      <span></span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Mountaineering, also known as mountain climbing, is the sport or
+          activity of climbing mountains. It combines physical strength,
+          technical skills, planning and knowledge of the mountain
+          environment.
+        </p>
+
+        <p>
+          Modern mountaineering includes climbing rock, snow and ice-covered
+          mountains. Climbers must understand weather, navigation, shelter,
+          equipment and emergency procedures.
+        </p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <i class="bi bi-shield-check"></i>
+            <h3>Safety First</h3>
+            <p>Proper planning and equipment reduce mountain risks.</p>
+          </div>
+
+          <div class="info-card">
+            <i class="bi bi-compass"></i>
+            <h3>Navigation</h3>
+            <p>Maps, compass and GPS help climbers navigate safely.</p>
+          </div>
+
+          <div class="info-card">
+            <i class="bi bi-cloud-sun"></i>
+            <h3>Weather</h3>
+            <p>Understanding weather is essential before climbing.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
+          alt="Snow covered mountain" />
+
+        <div class="image-label">
+          <strong>Adventure Awaits</strong>
+          <span>Reach your personal summit.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CLIMB / BENEFITS -->
+
+  <section class="section">
+    <div class="section-heading">
+      <p>WHY PEOPLE CLIMB</p>
+      <h2>More Than a Sport</h2>
+      <span></span>
+    </div>
+
+    <div class="info-cards wide-cards">
+      <div class="info-card">
+        <i class="bi bi-heart-pulse"></i>
+        <h3>Fitness</h3>
+        <p>
+          Long approaches and steep ground build endurance, leg strength and
+          balance.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <i class="bi bi-people"></i>
+        <h3>Teamwork</h3>
+        <p>
+          Climbers rope together, share loads and rely on each other's
+          judgment.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <i class="bi bi-lightbulb"></i>
+        <h3>Decision Making</h3>
+        <p>Turning back in bad conditions is a core mountaineering skill.</p>
+      </div>
+
+      <div class="info-card">
+        <i class="bi bi-tree"></i>
+        <h3>Nature</h3>
+        <p>
+          Mountains offer glaciers, alpine meadows and some of the quietest
+          places on Earth.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTORY -->
+
+  <section id="history" class="section">
+    <div class="section-heading">
+      <p>A BRIEF HISTORY</p>
+      <h2>How Mountaineering Began</h2>
+      <span></span>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <b>1786</b>
+        <h3>Mont Blanc</h3>
+        <p>
+          Jacques Balmat and Michel-Gabriel Paccard reach the summit of Mont
+          Blanc, the highest peak in the Alps. Many historians mark this as
+          the start of modern mountaineering.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <b>1865</b>
+        <h3>The Matterhorn</h3>
+        <p>
+          Edward Whymper's team makes the first ascent of the Matterhorn. Four
+          climbers die on the descent, shaking public views of the sport.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <b>1950</b>
+        <h3>Annapurna I</h3>
+        <p>
+          A French expedition led by Maurice Herzog becomes the first to climb
+          an 8,000-metre peak.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <b>1953</b>
+        <h3>Everest and Nanga Parbat</h3>
+        <p>
+          Edmund Hillary and Tenzing Norgay reach the top of Everest. Later
+          the same year, Hermann Buhl makes a solo summit of Nanga Parbat.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <b>1954</b>
+        <h3>K2</h3>
+        <p>
+          An Italian expedition makes the first ascent of K2, the second
+          highest mountain in the world.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <b>1978</b>
+        <h3>Without Oxygen</h3>
+        <p>
+          Reinhold Messner and Peter Habeler climb Everest without
+          supplemental oxygen, proving it was possible.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPES -->
+
+  <section id="types" class="section">
+    <div class="section-heading">
+      <p>CHOOSE YOUR PATH</p>
+      <h2>Types of Mountaineering</h2>
+      <span></span>
+    </div>
+
+    <div class="card-grid">
+      <article class="content-card">
+        <i class="bi bi-signpost-split"></i>
+        <h3>Hiking &amp; Trekking</h3>
+        <p>
+          Walking on trails to high viewpoints and passes. It needs little
+          technical gear and is the usual first step into the mountains.
+        </p>
+        <span class="level level-easy">Beginner</span>
+      </article>
+
+      <article class="content-card">
+        <i class="bi bi-bounding-box"></i>
+        <h3>Rock Climbing</h3>
+        <p>
+          Climbing cliffs and crags using hands, feet, ropes and protection.
+          Skills here carry over directly to alpine routes.
+        </p>
+        <span class="level level-mid">Intermediate</span>
+      </article>
+
+      <article class="content-card">
+        <i class="bi bi-snow2"></i>
+        <h3>Ice &amp; Snow Climbing</h3>
+        <p>
+          Using crampons and ice axes on glaciers, frozen waterfalls and steep
+          snow slopes.
+        </p>
+        <span class="level level-mid">Intermediate</span>
+      </article>
+
+      <article class="content-card">
+        <i class="bi bi-triangle"></i>
+        <h3>Alpine Climbing</h3>
+        <p>
+          Combines rock, snow and ice on one route, usually in a light and
+          fast style over one or more days.
+        </p>
+        <span class="level level-hard">Advanced</span>
+      </article>
+
+      <article class="content-card">
+        <i class="bi bi-flag"></i>
+        <h3>Expedition Climbing</h3>
+        <p>
+          Multi-week climbs on high peaks with base camps, fixed ropes and
+          careful acclimatization.
+        </p>
+        <span class="level level-hard">Advanced</span>
+      </article>
+
+      <article class="content-card">
+        <i class="bi bi-wind"></i>
+        <h3>Ski Mountaineering</h3>
+        <p>
+          Climbing on skis with skins, then skiing down. It needs strong
+          avalanche knowledge.
+        </p>
+        <span class="level level-hard">Advanced</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- TECHNIQUES -->
+
+  <section id="techniques" class="section">
+    <div class="section-heading">
+      <p>SKILLS &amp; GEAR</p>
+      <h2>Essential Techniques</h2>
+      <span></span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <ul class="check-list">
+          <li>
+            <i class="bi bi-check-circle-fill"></i>
+            <div>
+              <strong>Rope work and belaying</strong>
+              <p>
+                Tying in, managing the rope and catching a fall are the base
+                of every roped climb.
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i>
+            <div>
+              <strong>Ice axe self-arrest</strong>
+              <p>
+                Stopping a slide on a snow slope by rolling onto the axe and
+                digging in the pick.
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i>
+            <div>
+              <strong>Crampon technique</strong>
+              <p>
+                Placing all points flat on the ice or snow, and walking with
+                wide feet to avoid snagging.
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i>
+            <div>
+              <strong>Glacier travel and crevasse rescue</strong>
+              <p>
+                Moving roped together, probing for hidden crevasses and
+                hauling a fallen partner out.
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i>
+            <div>
+              <strong>Acclimatization</strong>
+              <p>
+                Climb high, sleep low. Ascend gradually so the body can adapt
+                to thinner air.
+              </p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i>
+            <div>
+              <strong>Navigation</strong>
+              <p>
+                Reading maps, using a compass and GPS, and planning a route
+                with turnaround times.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="gear-box">
+        <h3><i class="bi bi-backpack2"></i> Basic Gear Checklist</h3>
+
+        <ul>
+          <li>Helmet and climbing harness</li>
+          <li>Mountaineering boots and crampons</li>
+          <li>Ice axe and trekking poles</li>
+          <li>Rope, carabiners and slings</li>
+          <li>Layered clothing, shell jacket and insulated gloves</li>
+          <li>Goggles, sunglasses and sunscreen</li>
+          <li>Headlamp with spare batteries</li>
+          <li>Map, compass and GPS or phone with offline maps</li>
+          <li>Stove, food, water and emergency shelter</li>
+          <li>First aid kit and a satellite communicator</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HAZARDS -->
+
+  <section id="hazards" class="section">
+    <div class="section-heading">
+      <p>RESPECT THE MOUNTAIN</p>
+      <h2>Hazards &amp; Safety</h2>
+      <span></span>
+    </div>
+
+    <div class="card-grid">
+      <article class="content-card hazard">
+        <i class="bi bi-exclamation-triangle"></i>
+        <h3>Avalanches</h3>
+        <p>
+          Check the avalanche bulletin, avoid steep loaded slopes after
+          snowfall, and carry a beacon, probe and shovel.
+        </p>
+      </article>
+
+      <article class="content-card hazard">
+        <i class="bi bi-lungs"></i>
+        <h3>Altitude Sickness</h3>
+        <p>
+          Headache, nausea and poor sleep can signal acute mountain sickness.
+          Severe forms, HAPE and HACE, are life threatening and require
+          descent.
+        </p>
+      </article>
+
+      <article class="content-card hazard">
+        <i class="bi bi-thermometer-snow"></i>
+        <h3>Cold Injuries</h3>
+        <p>
+          Hypothermia and frostbite develop quickly in wind and cold. Keep
+          dry, eat often and cover exposed skin.
+        </p>
+      </article>
+
+      <article class="content-card hazard">
+        <i class="bi bi-cloud-lightning-rain"></i>
+        <h3>Sudden Weather</h3>
+        <p>
+          Storms, whiteouts and strong wind can arrive within hours. Start
+          early and set a firm turnaround time.
+        </p>
+      </article>
+
+      <article class="content-card hazard">
+        <i class="bi bi-slash-circle"></i>
+        <h3>Crevasses &amp; Rockfall</h3>
+        <p>
+          Hidden crevasses and falling rocks cause many accidents. Rope up on
+          glaciers and wear a helmet.
+        </p>
+      </article>
+
+      <article class="content-card hazard">
+        <i class="bi bi-person-exclamation"></i>
+        <h3>Human Error</h3>
+        <p>
+          Summit fever, fatigue and poor planning are common factors. Be
+          willing to turn back.
+        </p>
+      </article>
+    </div>
+
+    <div class="safety-note">
+      <i class="bi bi-info-circle-fill"></i>
+      <p>
+        This site gives general information only. It is not a substitute for
+        training with a qualified guide or mountaineering course.
+      </p>
+    </div>
+  </section>
+
+  <!-- RECORDS -->
+
+  <section id="records" class="section">
+    <div class="section-heading">
+      <p>THE HIGHEST PEAKS</p>
+      <h2>Mountain Records</h2>
+      <span></span>
+    </div>
+
+    <div class="table-wrap">
+      <table class="records-table">
+        <thead>
+          <tr>
+            <th>Mountain</th>
+            <th>Height</th>
+            <th>Range</th>
+            <th>First ascent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mount Everest</td>
+            <td>8,849 m</td>
+            <td>Himalaya (Nepal / China)</td>
+            <td>1953</td>
+          </tr>
+          <tr>
+            <td>K2</td>
+            <td>8,611 m</td>
+            <td>Karakoram (Pakistan / China)</td>
+            <td>1954</td>
+          </tr>
+          <tr>
+            <td>Kangchenjunga</td>
+            <td>8,586 m</td>
+            <td>Himalaya (Nepal / India)</td>
+            <td>1955</td>
+          </tr>
+          <tr>
+            <td>Lhotse</td>
+            <td>8,516 m</td>
+            <td>Himalaya (Nepal / China)</td>
+            <td>1956</td>
+          </tr>
+          <tr>
+            <td>Makalu</td>
+            <td>8,485 m</td>
+            <td>Himalaya (Nepal / China)</td>
+            <td>1955</td>
+          </tr>
+          <tr>
+            <td>Nanga Parbat</td>
+            <td>8,126 m</td>
+            <td>Himalaya (Pakistan)</td>
+            <td>1953</td>
+          </tr>
+          <tr>
+            <td>Annapurna I</td>
+            <td>8,091 m</td>
+            <td>Himalaya (Nepal)</td>
+            <td>1950</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="info-cards wide-cards">
+      <div class="info-card">
+        <i class="bi bi-gender-female"></i>
+        <h3>Junko Tabei</h3>
+        <p>
+          In 1975 she became the first woman to reach the summit of Everest.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <i class="bi bi-trophy"></i>
+        <h3>Reinhold Messner</h3>
+        <p>
+          In 1986 he became the first person to climb all fourteen 8,000-metre
+          peaks.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <i class="bi bi-stopwatch"></i>
+        <h3>Nirmal Purja</h3>
+        <p>
+          In 2019 he climbed all fourteen 8,000-metre peaks in just over six
+          months.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY PREVIEW -->
+
+  <section id="gallery" class="section">
+    <div class="section-heading">
+      <p>VIEWS FROM ABOVE</p>
+      <h2>Gallery Preview</h2>
+      <span></span>
+    </div>
+
+    <div class="gallery-grid">
+      <figure>
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80"
+          alt="Mountain peaks under a starry sky" loading="lazy" />
+        <figcaption>High camp at night</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80"
+          alt="Climber on a snowy ridge" loading="lazy" />
+        <figcaption>Summit ridge</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=800&q=80"
+          alt="Mountain landscape with clouds" loading="lazy" />
+        <figcaption>Above the clouds</figcaption>
+      </figure>
+    </div>
+
+    <p class="section-link">
+      <a href="gallery.html">View full gallery <i class="bi bi-arrow-right"></i></a>
+    </p>
+  </section>
+
+  <!-- FAQ -->
+
+  <section id="faq" class="section">
+    <div class="section-heading">
+      <p>BEFORE YOU START</p>
+      <h2>Frequently Asked Questions</h2>
+      <span></span>
+    </div>
+
+    <div class="faq-list">
+      <details>
+        <summary>How do I start mountaineering?</summary>
+        <p>
+          Begin with hiking and scrambling to build fitness, then take a basic
+          mountaineering course covering ropes, ice axe and crampon skills
+          with a certified guide.
+        </p>
+      </details>
+
+      <details>
+        <summary>How fit do I need to be?</summary>
+        <p>
+          Good aerobic endurance and leg strength matter most. Training with
+          long hikes carrying a loaded pack is the best preparation.
+        </p>
+      </details>
+
+      <details>
+        <summary>Do I need supplemental oxygen?</summary>
+        <p>
+          Most climbers use oxygen above about 8,000 metres. Below that,
+          proper acclimatization is usually enough.
+        </p>
+      </details>
+
+      <details>
+        <summary>When is the best season to climb?</summary>
+        <p>
+          It depends on the range. Himalayan peaks are commonly climbed in
+          spring and autumn, the Karakoram in summer, and the Alps in summer
+          for most routes.
+        </p>
+      </details>
+
+      <details>
+        <summary>Should I climb with a guide?</summary>
+        <p>
+          Beginners should. A guide manages route finding, weather decisions
+          and rescue, and teaches skills you will use later on your own.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+
+  <section class="cta-band">
+    <h2>Ready to plan your first climb?</h2>
+    <p>
+      Read about the types of mountaineering, then get in touch with
+      questions.
+    </p>
+    <a href="contact.html" class="btn-main">Contact us</a>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <div class="footer-logo">
+      <i class="bi bi-triangle-fill"></i>
+      <strong>ALPINE ASCENTS</strong>
+    </div>
+
+    <p>© 2026 Alpine Ascents. Mountaineering Information Portal.</p>
+
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+
+      <a href="#" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+
+      <a href="#" aria-label="YouTube">
+        <i class="bi bi-youtube"></i>
+      </a>
+    </div>
+  </footer>
+
+  <div class="ticker">
+    <div class="ticker-content">
+      <span>
+        <i class="fa-regular fa-calendar"></i>
+        Date:
+        <b id="currentDate"></b>
+      </span>
+
+      <span>
+        <i class="fa-regular fa-clock"></i>
+        Time:
+        <b id="currentTime"></b>
+      </span>
+
+      <span>
+        <i class="fa-solid fa-location-dot"></i>
+        Location:
+        <b id="tickerLocation">Detecting...</b>
+      </span>
+
+      <span>
+        Welcome to Alpine Ascents - Your Mountaineering Information Portal
+      </span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

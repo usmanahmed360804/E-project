@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Alpine Ascents</title>
+    <title>Alpine Ascents | Mountaineering Portal</title>
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316a34a'/%3E%3Cpath d='M32 14 L52 48 H12 Z' fill='white'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Styles for the new footer and contact form (or paste into the end of style.css) -->
+    <link rel="stylesheet" href="contact-footer.css">
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <div class="logo-icon">
+                <i class="bi bi-triangle-fill"></i>
+            </div>
+
+            <div>
+                <h2>ALPINE</h2>
+                <span>ASCENTS</span>
+            </div>
+        </a>
+
+        <nav id="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="histroy.html" class="nav-link">History</a>
+            <a href="types.html" class="nav-link">Types</a>
+            <a href="techinque.html" class="nav-link">Techniques</a>
+            <a href="herzaid.html" class="nav-link">Hazards</a>
+            <a href="record.html" class="nav-link">Records</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+        </nav>
+
+        <div class="header-right">
+
+            <div class="visitor">
+                <i class="bi bi-people-fill"></i>
+                <span>Visitors</span>
+                <strong id="visitorCount">0</strong>
+            </div>
+
+            <button id="themeBtn" class="theme-btn" title="Toggle Theme">
+                <i class="bi bi-moon-fill"></i>
+            </button>
+
+            <button id="menuBtn" class="menu-btn">
+                <i class="bi bi-list"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+    <main id="home">
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact-section">
+
+            <div class="contact-content">
+
+                <p>READY FOR THE ADVENTURE?</p>
+
+                <h2>Reach Your Summit</h2>
+
+                <p>
+                    Learn, prepare, explore and experience the world of
+                    mountaineering responsibly.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a href="mailto:info@alpineascents.example" class="btn primary-btn">
+
+                        <i class="bi bi-envelope"></i>
+                        Contact Us
+
+                    </a>
+
+                    <a href="#home" class="btn secondary-btn">
+                        Back to Top
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- WAYS TO REACH US -->
+
+        <section id="ways" class="section">
+
+            <div class="section-heading">
+                <p>GET IN TOUCH</p>
+                <h2>How Can We Help?</h2>
+                <span></span>
+            </div>
+
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <i class="bi bi-question-circle"></i>
+                    <h3>Ask a Question</h3>
+                    <p>Not sure where to begin with mountaineering? Ask about types of climbing, skills or what to read
+                        next.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-pencil-square"></i>
+                    <h3>Suggest a Correction</h3>
+                    <p>Found a wrong date, height or detail on the site? Tell us which page and we will review it.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-camera"></i>
+                    <h3>Share Your Photos</h3>
+                    <p>Send mountain photos for the gallery, with where and when they were taken and the photographer's
+                        name.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-lightbulb"></i>
+                    <h3>Share an Idea</h3>
+                    <p>Is there a topic you want covered, such as a certain mountain or technique? We welcome
+                        suggestions.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT FORM -->
+
+        <section id="message" class="section dark-section">
+
+            <div class="section-heading">
+                <p>SEND A MESSAGE</p>
+                <h2>Write to Us</h2>
+                <span></span>
+            </div>
+
+            <div class="contact-layout">
+
+                <form class="contact-form" action="mailto:info@alpineascents.example" method="post"
+                    enctype="text/plain">
+
+                    <div class="form-row">
+                        <label for="cf-name">Your name</label>
+                        <input type="text" id="cf-name" name="name" required autocomplete="name">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cf-email">Your email</label>
+                        <input type="email" id="cf-email" name="email" required autocomplete="email">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cf-topic">What is this about?</label>
+                        <select id="cf-topic" name="topic">
+                            <option>General question</option>
+                            <option>Correction</option>
+                            <option>Photo submission</option>
+                            <option>Suggestion</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cf-message">Your message</label>
+                        <textarea id="cf-message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary-btn">
+                        <i class="bi bi-send"></i>
+                        Send Message
+                    </button>
+
+                    <p class="form-note">
+                        Sending opens your email app with the message ready to send.
+                    </p>
+
+                </form>
+
+                <aside class="contact-details">
+
+                    <h3>Contact Details</h3>
+
+                    <ul>
+                        <li>
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:info@alpineascents.example">info@alpineascents.example</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-clock"></i>
+                            <span>We read every message and reply as soon as we can.</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-globe2"></i>
+                            <span>Alpine Ascents is an online information portal.</span>
+                        </li>
+                    </ul>
+
+                    <div class="emergency-note">
+                        <i class="bi bi-exclamation-octagon-fill"></i>
+                        <p>
+                            <strong>In a mountain emergency?</strong>
+                            Do not email us. Call your local emergency number or
+                            mountain rescue service right away.
+                        </p>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+        <!-- BEFORE YOU WRITE -->
+
+        <section id="tips" class="section">
+
+            <div class="section-heading">
+                <p>HELP US HELP YOU</p>
+                <h2>Tips for a Quick Reply</h2>
+                <span></span>
+            </div>
+
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <i class="bi bi-1-circle"></i>
+                    <h3>Be Specific</h3>
+                    <p>Say which page or topic you mean, and what you would like to know.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-2-circle"></i>
+                    <h3>Give Context</h3>
+                    <p>Tell us your experience level so we can point you to suitable pages.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-3-circle"></i>
+                    <h3>Include Sources</h3>
+                    <p>If you are reporting a correction, a link to a reliable source helps us check it.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- STARTING POINTS -->
+
+        <section id="start" class="section dark-section">
+
+            <div class="section-heading">
+                <p>BEFORE YOU WRITE</p>
+                <h2>Your Answer May Be Here</h2>
+                <span></span>
+            </div>
+
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <i class="bi bi-compass"></i>
+                    <h3>New to Climbing?</h3>
+                    <p>Start with <a href="about.html">About</a> and <a href="types.html">Types</a> to see the styles of
+                        mountaineering.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-tools"></i>
+                    <h3>Want to Learn Skills?</h3>
+                    <p>See <a href="techinque.html">Techniques</a> for ropes, knots, shelters, weather and emergencies.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-shield-check"></i>
+                    <h3>Worried About Safety?</h3>
+                    <p>Read <a href="herzaid.html">Hazards</a> for avalanches, altitude illness and cold injuries.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-clock-history"></i>
+                    <h3>Curious About the Past?</h3>
+                    <p>Explore the <a href="histroy.html">History</a> and <a href="record.html">Records</a> pages.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FAQ -->
+
+        <section id="faq" class="section">
+
+            <div class="section-heading">
+                <p>QUICK ANSWERS</p>
+                <h2>Contact Questions</h2>
+                <span></span>
+            </div>
+
+            <div class="about-text">
+
+                <details>
+                    <summary><strong>Do you organize expeditions or guided trips?</strong></summary>
+                    <p>No. Alpine Ascents is an information portal. For guided climbs, look for certified mountain
+                        guides or reputable local operators.</p>
+                </details>
+
+                <details>
+                    <summary><strong>Can you give me personal climbing advice?</strong></summary>
+                    <p>We can point you to general information on the site, but we cannot judge your fitness, route or
+                        conditions. A qualified guide or instructor can.</p>
+                </details>
+
+                <details>
+                    <summary><strong>How do I report a mistake?</strong></summary>
+                    <p>Choose "Correction" in the form above, name the page and describe the problem, ideally with a
+                        source.</p>
+                </details>
+
+                <details>
+                    <summary><strong>Can I use your content?</strong></summary>
+                    <p>Please ask first. Write to us with what you would like to use and how.</p>
+                </details>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <div class="footer-grid">
+
+            <div class="footer-about">
+
+                <div class="footer-logo">
+                    <i class="bi bi-triangle-fill"></i>
+                    <strong>ALPINE ASCENTS</strong>
+                </div>
+
+                <p>
+                    An information portal about the history, skills, hazards
+                    and records of mountaineering.
+                </p>
+
+                <div class="social-icons">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <nav class="footer-links" aria-label="Explore">
+                <h4>Explore</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="histroy.html">History</a>
+                <a href="types.html">Types</a>
+            </nav>
+
+            <nav class="footer-links" aria-label="Learn">
+                <h4>Learn</h4>
+                <a href="techinque.html">Techniques</a>
+                <a href="herzaid.html">Hazards</a>
+                <a href="record.html">Records</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <a href="mailto:info@alpineascents.example">info@alpineascents.example</a>
+                <a href="contact.html">Send a message</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Alpine Ascents. Mountaineering Information Portal.
+            </p>
+
+            <p class="footer-disclaimer">
+                For general information only. Learn mountain skills from
+                qualified instructors.
+            </p>
+
+            <a href="#home" class="footer-top">
+                Back to top <i class="bi bi-arrow-up"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <div class="ticker">
+
+        <div class="ticker-content">
+
+            <span>
+                <i class="bi bi-calendar3"></i>
+                Date:
+                <b id="currentDate"></b>
+            </span>
+
+            <span>
+                <i class="bi bi-clock"></i>
+                Time:
+                <b id="currentTime"></b>
+            </span>
+
+            <span>
+                <i class="bi bi-geo-alt-fill"></i>
+                Location:
+                <b id="tickerLocation">Detecting...</b>
+            </span>
+
+            <span>
+                Welcome to Alpine Ascents - Your Mountaineering
+                Information Portal
+            </span>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Alpine Ascents | Mountaineering Portal</title>
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316a34a'/%3E%3Cpath d='M32 14 L52 48 H12 Z' fill='white'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <div class="logo-icon">
+                <i class="bi bi-triangle-fill"></i>
+            </div>
+
+            <div>
+                <h2>ALPINE</h2>
+                <span>ASCENTS</span>
+            </div>
+        </a>
+
+        <nav id="navbar">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="histroy.html" class="nav-link">History</a>
+            <a href="types.html" class="nav-link">Types</a>
+            <a href="techinque.html" class="nav-link">Techniques</a>
+            <a href="herzaid.html" class="nav-link">Hazards</a>
+            <a href="record.html" class="nav-link">Records</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-right">
+
+            <div class="visitor">
+                <i class="bi bi-people-fill"></i>
+                <span>Visitors</span>
+                <strong id="visitorCount">0</strong>
+            </div>
+
+            <button id="themeBtn" class="theme-btn" title="Toggle Theme">
+                <i class="bi bi-moon-fill"></i>
+            </button>
+
+            <button id="menuBtn" class="menu-btn">
+                <i class="bi bi-list"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- INTRO -->
+
+    <section id="home" class="section">
+
+        <div class="section-heading">
+            <p>BEFORE YOU GO</p>
+            <h2>Why Mountains Are Risky</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                Mountains combine steep terrain, extreme weather, thin air and
+                remote locations. Help can be hours or days away, so small
+                problems can quickly become serious ones.
+            </p>
+
+            <p>
+                Risks can be grouped into two types. <strong>Objective
+                    hazards</strong>, such as avalanches and rockfall, come from
+                the mountain itself. <strong>Subjective hazards</strong>, such
+                as poor planning, fatigue and bad decisions, come from the
+                people climbing. Skill and judgment reduce both, but never
+                remove them completely.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- HAZARDS -->
+
+    <section id="hazards" class="section hazard-section">
+
+        <div class="section-heading">
+            <p>KNOW THE RISKS</p>
+            <h2>Mountain Hazards</h2>
+            <span></span>
+        </div>
+
+        <div class="hazard-grid">
+
+            <div class="hazard-card">
+                <i class="bi bi-snow"></i>
+                <h3>Avalanches</h3>
+                <p>
+                    Rapid movement of snow and ice down a mountain slope.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-cloud-lightning"></i>
+                <h3>Bad Weather</h3>
+                <p>
+                    Storms, snowfall, strong winds and low visibility.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-thermometer-snow"></i>
+                <h3>Hypothermia</h3>
+                <p>
+                    Dangerous loss of body temperature in cold conditions.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-exclamation-triangle"></i>
+                <h3>Rockfall</h3>
+                <p>
+                    Loose rocks can fall unexpectedly from steep terrain.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-lungs"></i>
+                <h3>Altitude Sickness</h3>
+                <p>
+                    Illness caused by low oxygen when climbing too fast to
+                    high elevations.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-snow2"></i>
+                <h3>Frostbite</h3>
+                <p>
+                    Freezing of skin and deeper tissue, most often in the
+                    fingers, toes, nose and ears.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-slash-circle"></i>
+                <h3>Crevasses</h3>
+                <p>
+                    Deep cracks in glaciers that can be hidden under a thin
+                    layer of snow.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-lightning-charge"></i>
+                <h3>Lightning</h3>
+                <p>
+                    Exposed ridges and summits are dangerous places during
+                    thunderstorms.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-sun"></i>
+                <h3>Sun and Snow Blindness</h3>
+                <p>
+                    Strong ultraviolet light at altitude burns skin and can
+                    painfully damage unprotected eyes.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-droplet-half"></i>
+                <h3>Dehydration</h3>
+                <p>
+                    Dry air and heavy effort cause fluid loss, which makes
+                    fatigue and altitude illness worse.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-building-down"></i>
+                <h3>Serac and Cornice Collapse</h3>
+                <p>
+                    Blocks of glacier ice and overhanging snow can break
+                    away with no warning.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-person-exclamation"></i>
+                <h3>Human Factors</h3>
+                <p>
+                    Fatigue, overconfidence, group pressure and "summit fever"
+                    lead to poor decisions.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ALTITUDE ILLNESS -->
+
+    <section id="altitude" class="section dark-section">
+
+        <div class="section-heading">
+            <p>THIN AIR</p>
+            <h2>Altitude Illness</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                Altitude illness can affect anyone, including very fit
+                climbers. It develops when the body does not have time to
+                adapt to lower oxygen levels. The most important treatments
+                are to stop climbing higher and, if symptoms are getting
+                worse, to descend.
+            </p>
+
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <i class="bi bi-emoji-dizzy"></i>
+                    <h3>Acute Mountain Sickness</h3>
+                    <p>The mild and most common form. Symptoms include headache, nausea, dizziness, poor sleep and loss
+                        of appetite.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-lungs-fill"></i>
+                    <h3>HAPE</h3>
+                    <p>High-altitude pulmonary edema, fluid on the lungs. Signs include breathlessness at rest, a
+                        persistent cough and extreme tiredness. It is life threatening.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-activity"></i>
+                    <h3>HACE</h3>
+                    <p>High-altitude cerebral edema, swelling of the brain. Signs include confusion, loss of balance and
+                        strange behavior. It is life threatening.</p>
+                </div>
+
+            </div>
+
+            <p>
+                Climbers can reduce the risk by ascending gradually, resting,
+                drinking enough fluid and not ignoring symptoms. Anyone with
+                signs of HAPE or HACE needs to descend immediately and get
+                medical help.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- AVALANCHE SAFETY -->
+
+    <section id="avalanche" class="section">
+
+        <div class="section-heading">
+            <p>SNOW SAFETY</p>
+            <h2>Avalanche Awareness</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                Most avalanches that catch people are triggered by the victim
+                or their group. They happen most often on slopes between about
+                30 and 45 degrees, especially after fresh snow, strong wind or
+                rapid warming.
+            </p>
+
+            <div class="info-cards">
+
+                <div class="info-card">
+                    <i class="bi bi-newspaper"></i>
+                    <h3>Read the Bulletin</h3>
+                    <p>Check the local avalanche forecast before every trip, and choose your route to match the danger
+                        level.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-eye"></i>
+                    <h3>Watch for Warning Signs</h3>
+                    <p>Recent avalanches, cracking snow and a "whumpf" sound underfoot all signal an unstable snowpack.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-people"></i>
+                    <h3>Expose One at a Time</h3>
+                    <p>Cross suspect slopes one person at a time, and keep the rest of the group in a safe place.</p>
+                </div>
+
+                <div class="info-card">
+                    <i class="bi bi-broadcast-pin"></i>
+                    <h3>Carry the Rescue Kit</h3>
+                    <p>A beacon, probe and shovel, plus the training to use them quickly, are essential in avalanche
+                        terrain.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COLD INJURIES -->
+
+    <section id="cold" class="section dark-section">
+
+        <div class="section-heading">
+            <p>COLD CONDITIONS</p>
+            <h2>Hypothermia and Frostbite</h2>
+            <span></span>
+        </div>
+
+        <div class="hazard-grid">
+
+            <div class="hazard-card">
+                <i class="bi bi-thermometer-low"></i>
+                <h3>Hypothermia Signs</h3>
+                <p>
+                    Shivering, clumsiness, slurred speech and confusion. In
+                    severe cases the shivering stops, which is an emergency.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-shield-plus"></i>
+                <h3>Hypothermia Response</h3>
+                <p>
+                    Get out of wind and wet, add dry insulation, provide warm
+                    sweet drinks if the person is alert, and call for help.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-hand-index-thumb"></i>
+                <h3>Frostbite Signs</h3>
+                <p>
+                    Numb, pale, waxy or hard skin. Early frostnip makes skin
+                    white and cold but still soft.
+                </p>
+            </div>
+
+            <div class="hazard-card">
+                <i class="bi bi-hospital"></i>
+                <h3>Frostbite Response</h3>
+                <p>
+                    Shelter the person, remove wet or tight clothing and warm
+                    the area gently without rubbing it. Seek medical care.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- REDUCING RISK -->
+
+    <section id="prevent" class="section">
+
+        <div class="section-heading">
+            <p>STAY IN CONTROL</p>
+            <h2>How Climbers Reduce Risk</h2>
+            <span></span>
+        </div>
+
+        <div class="info-cards">
+
+            <div class="info-card">
+                <i class="bi bi-mortarboard"></i>
+                <h3>Get Trained</h3>
+                <p>Take courses in navigation, rope work, avalanche safety and first aid.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-clipboard-check"></i>
+                <h3>Plan Thoroughly</h3>
+                <p>Research the route, season, forecast and escape options before you leave.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-clock-history"></i>
+                <h3>Set Limits</h3>
+                <p>Agree on a turnaround time and decision points, and stick to them.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-person-check"></i>
+                <h3>Choose Partners Well</h3>
+                <p>Climb with people whose skills and goals match yours, and speak up when something feels wrong.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-backpack2"></i>
+                <h3>Carry the Right Gear</h3>
+                <p>Helmet, layers, navigation, first aid, shelter and a way to call for help.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-shield-check"></i>
+                <h3>Get Insured</h3>
+                <p>Mountain rescue and medical evacuation can be very costly, so travel and rescue insurance is wise.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DISASTERS -->
+
+    <section id="lessons" class="section dark-section">
+
+        <div class="section-heading">
+            <p>LESSONS FROM THE PAST</p>
+            <h2>Major Mountain Disasters</h2>
+            <span></span>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-year">1865</div>
+
+                <div class="timeline-content">
+                    <h3>Matterhorn</h3>
+                    <p>
+                        Four climbers died on the descent after the first
+                        ascent when a rope broke, and the accident led to
+                        public debate on climbing safety.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">1996</div>
+
+                <div class="timeline-content">
+                    <h3>Everest Storm</h3>
+                    <p>
+                        A sudden storm and delays on summit day on May 10 and
+                        11 left eight climbers dead, and raised questions about
+                        turnaround times and crowding.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2008</div>
+
+                <div class="timeline-content">
+                    <h3>K2</h3>
+                    <p>
+                        A serac collapse near the Bottleneck on August 1 and 2
+                        damaged ropes and left eleven climbers dead.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2014</div>
+
+                <div class="timeline-content">
+                    <h3>Khumbu Icefall</h3>
+                    <p>
+                        An avalanche on Everest's Khumbu Icefall killed
+                        sixteen Nepali guides, and led to a major debate about
+                        the risks faced by Sherpa workers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-year">2015</div>
+
+                <div class="timeline-content">
+                    <h3>Nepal Earthquake</h3>
+                    <p>
+                        An earthquake on April 25 triggered an avalanche that
+                        hit Everest Base Camp and killed at least nineteen
+                        people.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RECORDS -->
+
+    <section id="records" class="section">
+
+        <div class="section-heading">
+            <p>THE GIANTS</p>
+            <h2>The Fourteen 8,000-Metre Peaks</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                Only fourteen mountains on Earth rise above 8,000 metres. All
+                of them are in the Himalaya and Karakoram. Heights are rounded
+                and can differ slightly between sources.
+            </p>
+
+        </div>
+
+        <div class="info-cards">
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Mount Everest</h3>
+                <p>8,849 m. Himalaya, Nepal and China. First climbed in 1953.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>K2</h3>
+                <p>8,611 m. Karakoram, Pakistan and China. First climbed in 1954.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Kangchenjunga</h3>
+                <p>8,586 m. Himalaya, Nepal and India. First climbed in 1955.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Lhotse</h3>
+                <p>8,516 m. Himalaya, Nepal and China. First climbed in 1956.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Makalu</h3>
+                <p>8,485 m. Himalaya, Nepal and China. First climbed in 1955.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Cho Oyu</h3>
+                <p>8,188 m. Himalaya, Nepal and China. First climbed in 1954.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Dhaulagiri I</h3>
+                <p>8,167 m. Himalaya, Nepal. First climbed in 1960.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Manaslu</h3>
+                <p>8,163 m. Himalaya, Nepal. First climbed in 1956.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Nanga Parbat</h3>
+                <p>8,126 m. Himalaya, Pakistan. First climbed in 1953.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Annapurna I</h3>
+                <p>8,091 m. Himalaya, Nepal. First climbed in 1950.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Gasherbrum I</h3>
+                <p>8,080 m. Karakoram, Pakistan and China. First climbed in 1958.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Broad Peak</h3>
+                <p>8,051 m. Karakoram, Pakistan and China. First climbed in 1957.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Gasherbrum II</h3>
+                <p>8,035 m. Karakoram, Pakistan and China. First climbed in 1956.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Shishapangma</h3>
+                <p>8,027 m. Himalaya, Tibet (China). First climbed in 1964.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CLIMBING FIRSTS -->
+
+    <section id="firsts" class="section dark-section">
+
+        <div class="section-heading">
+            <p>MILESTONES</p>
+            <h2>Climbing Firsts</h2>
+            <span></span>
+        </div>
+
+        <div class="info-cards">
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>First on Everest</h3>
+                <p>Edmund Hillary and Tenzing Norgay, 1953.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>First Woman on Everest</h3>
+                <p>Junko Tabei of Japan, 1975.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>First Without Oxygen</h3>
+                <p>Reinhold Messner and Peter Habeler on Everest, 1978.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>First Winter Ascent of Everest</h3>
+                <p>Krzysztof Wielicki and Leszek Cichy of Poland, 1980.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>First to Climb All Fourteen</h3>
+                <p>Reinhold Messner, 1986.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>Fastest All Fourteen</h3>
+                <p>Nirmal Purja, six months and six days, 2019.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>First Winter Ascent of K2</h3>
+                <p>A team of ten Nepali climbers, January 2021.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-trophy"></i>
+                <h3>Most Everest Summits</h3>
+                <p>Kami Rita Sherpa has reached the summit more than thirty times.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DISCLAIMER -->
+
+    <section id="disclaimer" class="section">
+
+        <div class="section-heading">
+            <p>IMPORTANT</p>
+            <h2>A Note on Safety</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                This page gives general information to help you understand
+                mountain risks. It is not medical advice and does not replace
+                training. Before any mountain trip, seek instruction from
+                qualified guides, learn first aid, check current local
+                conditions and consult a doctor about travel to high altitude.
+            </p>
+
+            <p>
+                Learn about the <a href="techinque.html">techniques climbers
+                    use</a>, the <a href="types.html">different types of
+                    climbing</a> and the <a href="histroy.html">history of the
+                    sport</a>.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ -->
+
+    <section id="faq" class="section dark-section">
+
+        <div class="section-heading">
+            <p>QUICK ANSWERS</p>
+            <h2>Hazard Questions</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <details>
+                <summary><strong>What is the most common cause of death in the mountains?</strong></summary>
+                <p>Falls and avalanches are leading causes, and altitude illness and exhaustion add to the risk on very
+                    high peaks.</p>
+            </details>
+
+            <details>
+                <summary><strong>Can I prevent altitude sickness?</strong></summary>
+                <p>You cannot guarantee it, but gradual ascent, rest days and staying hydrated greatly reduce the
+                    chance. Never ignore worsening symptoms.</p>
+            </details>
+
+            <details>
+                <summary><strong>Is a guide worth it?</strong></summary>
+                <p>For beginners, yes. Guides know the terrain, check conditions, make safety decisions and can manage
+                    an emergency.</p>
+            </details>
+
+            <details>
+                <summary><strong>What should I do if I get lost?</strong></summary>
+                <p>Stop, stay calm, check your map or GPS, and avoid wandering further. If you cannot find your way,
+                    stay put, keep warm and signal for help.</p>
+            </details>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            <i class="bi bi-triangle-fill"></i>
+            <strong>ALPINE ASCENTS</strong>
+        </div>
+
+        <p>
+            © 2026 Alpine Ascents. Mountaineering Information Portal.
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <div class="ticker">
+
+        <div class="ticker-content">
+
+            <span>
+                <i class="fa-regular fa-calendar"></i>
+                Date:
+                <b id="currentDate"></b>
+            </span>
+
+            <span>
+                <i class="fa-regular fa-clock"></i>
+                Time:
+                <b id="currentTime"></b>
+            </span>
+
+            <span>
+                <i class="fa-solid fa-location-dot"></i>
+                Location:
+                <b id="tickerLocation">Detecting...</b>
+            </span>
+
+            <span>
+                Welcome to Alpine Ascents - Your Mountaineering
+                Information Portal
+            </span>
+
+        </div>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

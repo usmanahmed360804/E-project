@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountaineering Gallery | Alpine Ascents</title>
+    <title>Alpine Ascents | Mountaineering Portal</title>
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2316a34a'/%3E%3Cpath d='M32 14 L52 48 H12 Z' fill='white'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <div class="logo-icon">
+                <i class="bi bi-triangle-fill"></i>
+            </div>
+
+            <div>
+                <h2>ALPINE</h2>
+                <span>ASCENTS</span>
+            </div>
+        </a>
+
+        <nav id="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="histroy.html" class="nav-link">History</a>
+            <a href="types.html" class="nav-link">Types</a>
+            <a href="techinque.html" class="nav-link">Techniques</a>
+            <a href="herzaid.html" class="nav-link">Hazards</a>
+            <a href="record.html" class="nav-link">Records</a>
+            <a href="gallery.html" class="nav-link active">Gallery</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-right">
+
+            <div class="visitor">
+                <i class="bi bi-people-fill"></i>
+                <span>Visitors</span>
+                <strong id="visitorCount">0</strong>
+            </div>
+
+            <button id="themeBtn" class="theme-btn" title="Toggle Theme">
+                <i class="bi bi-moon-fill"></i>
+            </button>
+
+            <button id="menuBtn" class="menu-btn">
+                <i class="bi bi-list"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- INTRO -->
+
+    <section id="home" class="section">
+
+        <div class="section-heading">
+            <p>WELCOME</p>
+            <h2>Pictures From the Mountains</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                Photographs show what words cannot: the scale of a glacier, the
+                colors of a sunrise ridge and the quiet of a high camp. Browse
+                the gallery below for a look at the landscapes, climbing styles
+                and camps that make mountaineering special.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- GALLERY -->
+
+    <section id="gallery" class="section">
+
+        <div class="section-heading">
+            <p>VISUAL ADVENTURE</p>
+            <h2>Mountaineering Gallery</h2>
+            <span></span>
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=900&q=85"
+                    alt="Rock Climbing">
+                <div class="gallery-caption">Rock Climbing</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?auto=format&fit=crop&w=900&q=85"
+                    alt="Snow Mountains">
+                <div class="gallery-caption">Snow Mountains</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=900&q=85"
+                    alt="Adventure Camp">
+                <div class="gallery-caption">Adventure Camp</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=900&q=85"
+                    alt="Mountain Peak">
+                <div class="gallery-caption">Mountain Peak</div>
+            </div>
+
+            <div class="gallery-item">
+                <img loading="lazy" onerror="this.closest('.gallery-item').style.display='none'"
+                    src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=900&q=85"
+                    alt="Climber on a snowy ridge">
+                <div class="gallery-caption">Summit Ridge</div>
+            </div>
+
+            <div class="gallery-item">
+                <img loading="lazy" onerror="this.closest('.gallery-item').style.display='none'"
+                    src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=85"
+                    alt="Mountain peaks under a starry sky">
+                <div class="gallery-caption">Night at High Camp</div>
+            </div>
+
+            <div class="gallery-item">
+                <img loading="lazy" onerror="this.closest('.gallery-item').style.display='none'"
+                    src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=900&q=85"
+                    alt="Mountains above the clouds">
+                <div class="gallery-caption">Above the Clouds</div>
+            </div>
+
+            <div class="gallery-item">
+                <img loading="lazy" onerror="this.closest('.gallery-item').style.display='none'"
+                    src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=900&q=85"
+                    alt="Hiker with a backpack on a trail">
+                <div class="gallery-caption">On the Trail</div>
+            </div>
+
+            <div class="gallery-item">
+                <img loading="lazy" onerror="this.closest('.gallery-item').style.display='none'"
+                    src="https://images.unsplash.com/photo-1464207687429-7505649dae38?auto=format&fit=crop&w=900&q=85"
+                    alt="Mountain valley landscape">
+                <div class="gallery-caption">Alpine Valley</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FAMOUS MOUNTAINS -->
+
+    <section id="famous" class="section dark-section">
+
+        <div class="section-heading">
+            <p>PEAKS WORTH KNOWING</p>
+            <h2>Famous Mountains</h2>
+            <span></span>
+        </div>
+
+        <div class="info-cards">
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Mount Everest</h3>
+                <p>8,849 m. The highest mountain on Earth, on the border of Nepal and China.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>K2</h3>
+                <p>8,611 m. A steep pyramid of rock and ice in the Karakoram, known as the Savage Mountain.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Matterhorn</h3>
+                <p>4,478 m. The sharp pyramid on the Swiss and Italian border, one of the most recognized peaks in the
+                    Alps.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Mont Blanc</h3>
+                <p>About 4,806 m. The highest mountain in the Alps and the site of the first major alpine ascent in
+                    1786.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Denali</h3>
+                <p>6,190 m. The highest peak in North America, in Alaska, famous for its cold and its huge rise from
+                    base to summit.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-triangle-fill"></i>
+                <h3>Kilimanjaro</h3>
+                <p>5,895 m. Africa's highest mountain, a volcano that rises alone above the plains of Tanzania.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PHOTOGRAPHY TIPS -->
+
+    <section id="photo-tips" class="section">
+
+        <div class="section-heading">
+            <p>CAPTURE THE MOMENT</p>
+            <h2>Mountain Photography Tips</h2>
+            <span></span>
+        </div>
+
+        <div class="info-cards">
+
+            <div class="info-card">
+                <i class="bi bi-brightness-alt-high"></i>
+                <h3>Use Golden Hour</h3>
+                <p>Early morning and late afternoon light gives mountains warm color and strong shadows.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-battery-charging"></i>
+                <h3>Keep Batteries Warm</h3>
+                <p>Cold drains batteries quickly. Keep your phone and spares in an inside pocket close to your body.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-person-standing"></i>
+                <h3>Add Scale</h3>
+                <p>Including a climber or tent in the frame shows how huge the landscape is.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-sunglasses"></i>
+                <h3>Handle Snow Glare</h3>
+                <p>Snow can fool your camera into underexposing. Brighten the exposure slightly to keep snow white.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-moon-stars"></i>
+                <h3>Try Night Skies</h3>
+                <p>Far from city lights, mountains make a superb setting for star photos. Use a tripod and a long
+                    exposure.</p>
+            </div>
+
+            <div class="info-card">
+                <i class="bi bi-shield-exclamation"></i>
+                <h3>Safety Before Photos</h3>
+                <p>Never step near cliff edges or unstable snow for a picture, and stop only in safe places.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GUIDELINES -->
+
+    <section id="guidelines" class="section guidelines-section">
+
+        <div class="section-heading">
+            <p>BE PREPARED</p>
+            <h2>General Guidelines</h2>
+            <span></span>
+        </div>
+
+        <div class="guideline-list">
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Always check weather conditions before starting
+                    an expedition.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Carry appropriate clothing, food, water and
+                    emergency equipment.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Never climb alone on difficult or unfamiliar routes.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Inform someone about your climbing route and
+                    expected return time.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Respect local communities and protect the
+                    mountain environment.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Learn essential skills such as navigation, rope work and
+                    first aid from a qualified instructor before you go.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Allow time to adjust to altitude, and descend if symptoms
+                    of altitude sickness get worse.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Set a turnaround time before you start, and turn back when
+                    you reach it, even if the summit is close.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Check the avalanche forecast, and carry a beacon, probe and
+                    shovel when travelling in avalanche terrain.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Wear a helmet in places where rocks or ice may fall, or
+                    where a fall could injure your head.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Bring a way to call for help, such as a phone with offline
+                    maps, a radio or a satellite communicator, and know that
+                    coverage can be poor.
+                </p>
+            </div>
+
+            <div>
+                <i class="bi bi-check-circle-fill"></i>
+                <p>
+                    Check your gear before each trip, including ropes,
+                    harnesses, helmets and batteries.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PACKING CHECKLIST -->
+
+    <section id="packing" class="section guidelines-section dark-section">
+
+        <div class="section-heading">
+            <p>DON'T FORGET</p>
+            <h2>Day Climb Checklist</h2>
+            <span></span>
+        </div>
+
+        <div class="guideline-list">
+
+            <div>
+                <i class="bi bi-bag-check"></i>
+                <p>Backpack with a waterproof cover or liner.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-layers"></i>
+                <p>Base layer, insulation layer and a waterproof shell, plus spare gloves and a warm hat.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-map"></i>
+                <p>Map, compass and a charged phone or GPS with offline maps.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-lightbulb"></i>
+                <p>Headlamp with spare batteries.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-cup-straw"></i>
+                <p>Water and high-energy snacks, with extra in case of delays.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-sunglasses"></i>
+                <p>Sunglasses or goggles, sunscreen and lip balm.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-bandaid"></i>
+                <p>First aid kit and an emergency shelter or bivouac bag.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-whistle"></i>
+                <p>A whistle for signalling for help.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- LEAVE NO TRACE -->
+
+    <section id="leave-no-trace" class="section guidelines-section">
+
+        <div class="section-heading">
+            <p>PROTECT THE MOUNTAINS</p>
+            <h2>Leave No Trace</h2>
+            <span></span>
+        </div>
+
+        <div class="guideline-list">
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Plan ahead and prepare.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Travel and camp on durable surfaces.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Dispose of waste properly, and carry out everything you carry in.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Leave what you find, including rocks, plants and historic objects.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Minimize campfire impacts, and use a stove where fires are not allowed.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Respect wildlife, and observe it from a distance.</p>
+            </div>
+
+            <div>
+                <i class="bi bi-recycle"></i>
+                <p>Be considerate of other visitors and local communities.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ -->
+
+    <section id="faq" class="section dark-section">
+
+        <div class="section-heading">
+            <p>QUICK ANSWERS</p>
+            <h2>Gallery Questions</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+
+            <details>
+                <summary><strong>Where do the photos come from?</strong></summary>
+                <p>The images on this page are from Unsplash, a source of freely usable photographs, and are shown to
+                    illustrate mountain scenes.</p>
+            </details>
+
+            <details>
+                <summary><strong>Can I send you my own photos?</strong></summary>
+                <p>Yes. Use the contact page to get in touch, and tell us where and when the photo was taken.</p>
+            </details>
+
+            <details>
+                <summary><strong>Which month is best for mountain photos?</strong></summary>
+                <p>It depends on the range. Autumn often has clear air and good color, while winter and spring offer
+                    more snow.</p>
+            </details>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section class="section">
+
+        <div class="section-heading">
+            <p>KEEP EXPLORING</p>
+            <h2>Learn More</h2>
+            <span></span>
+        </div>
+
+        <div class="about-text">
+            <p>
+                Enjoyed the pictures? Read about the
+                <a href="types.html">types of mountaineering</a>, the
+                <a href="techinque.html">skills climbers use</a> and the
+                <a href="herzaid.html">hazards of the mountains</a>, or
+                <a href="contact.html">get in touch</a> to share your own photos.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            <i class="bi bi-triangle-fill"></i>
+            <strong>ALPINE ASCENTS</strong>
+        </div>
+
+        <p>
+            © 2026 Alpine Ascents. Mountaineering Information Portal.
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <div class="ticker">
+
+        <div class="ticker-content">
+
+            <span>
+                <i class="fa-regular fa-calendar"></i>
+                Date:
+                <b id="currentDate"></b>
+            </span>
+
+            <span>
+                <i class="fa-regular fa-clock"></i>
+                Time:
+                <b id="currentTime"></b>
+            </span>
+
+            <span>
+                <i class="fa-solid fa-location-dot"></i>
+                Location:
+                <b id="tickerLocation">Detecting...</b>
+            </span>
+
+            <span>
+                Welcome to Alpine Ascents - Your Mountaineering
+                Information Portal
+            </span>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
